@@ -17,7 +17,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
+flex-direction: column;
 }
 
 .wrapper {
@@ -71,3 +71,6 @@ input:valid ~ button {
     opacity: 1;
     pointer-events: auto;
 }
+
+h4 { padding-top: 2rem;
+font-size: 2rem;}
