@@ -62,4 +62,12 @@ button {
     border-radius: .5rem;
     font-size: 1.8rem;
     font-weight: bold;
+    cursor: pointer;
+    pointer-events: none;
+    opacity: .7;
+}
+
+input:valid ~ button {
+    opacity: 1;
+    pointer-events: auto;
 }
